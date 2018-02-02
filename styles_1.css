@@ -17,6 +17,7 @@ body {
     clear: both;
 }
 
+.content, 
 .top-header {
     border-bottom: 1px solid #ccc;
 }
@@ -98,6 +99,11 @@ body {
     padding: 15px;
 }
 
+.sidebar-content {
+    padding: 15px;
+    text-align: center;
+}
+
 .title {
     font-size: 24px;
     text-align: center;
@@ -108,4 +114,22 @@ body {
     font-size: 13px;
     line-height: 1.5;
     color: #AAA;
+}
+
+.image-holder {
+    width: 150px;
+    height: 150px;
+    background: #ccc;
+    border-radius: 100%;
+    margin: 0 auto 10px;
+}
+
+.name {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 15px;
+}
+
+.sidebar {
+    border-left: 1px solid #ccc;
 }
