@@ -1,0 +1,111 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after,
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.menu-item + .menu-item {
+    border-left: 1px solid #ccc;
+}
+
+.menu-item a {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu-item a:hover {
+    background: #ccc;
+}
+
+.menu {
+    float: left;
+    border-right: 1px solid #ccc;
+}
+
+.socials {
+    float: right;
+    border-left: 1px solid #ccc;
+}
+
+.logo-holder {
+    height: 200px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    text-align: center;
+}
+
+.position-center {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+}
+
+.logo {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.logo-line {
+    font-size: 12px;
+}
+
+
+.col {
+    width: 100%;
+    float: left;
+}
+
+.col-1-3 {
+    width: 33.333333%;
+}
+
+.col-2-3 {
+    width: 66.666666%;
+}
+
+.page, .sidebar-content {
+    padding: 15px;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #AAA;
+}
