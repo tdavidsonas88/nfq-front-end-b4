@@ -133,3 +133,18 @@ body {
 .sidebar {
     border-left: 1px solid #ccc;
 }
+
+.flex-grid {
+    display: flex;
+}
+
+.flex-content {
+    order: 2;
+    flex: 2;
+}
+
+.flex-sidebar {
+    order: 1;
+    flex: 1;
+    border-right: 1px solid #ccc;
+}
